@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DADataManager", "DADataManager\DADataManager.csproj", "{F5270F69-518F-40F1-BADD-55E162A8C2AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5270F69-518F-40F1-BADD-55E162A8C2AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5270F69-518F-40F1-BADD-55E162A8C2AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5270F69-518F-40F1-BADD-55E162A8C2AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5270F69-518F-40F1-BADD-55E162A8C2AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB5E6329-5CE0-4441-B576-41B02983D630}
+	EndGlobalSection
+EndGlobal
