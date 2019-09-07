@@ -33,6 +33,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <TypeScriptCompile Remove="ClientApp\src\app\value\value.component.spec.ts" />
+    <TypeScriptCompile Remove="ClientApp\src\app\value\value.component.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="ClientApp\tsconfig.json" />
   </ItemGroup>
 
