@@ -33,8 +33,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <TypeScriptCompile Remove="ClientApp\src\app\nav\nav.component.spec.ts" />
+    <TypeScriptCompile Remove="ClientApp\src\app\nav\nav.component.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\value\value.component.spec.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\value\value.component.ts" />
+    <TypeScriptCompile Remove="ClientApp\src\app\_services\auth.service.ts" />
   </ItemGroup>
 
   <ItemGroup>
