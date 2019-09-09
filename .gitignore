@@ -332,5 +332,5 @@ ASALocalRun/
 # SQLite DB
 *.db
 
-# app settings
-appsettings.json
+# App Settings
+*/appsettings.*
