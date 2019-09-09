@@ -331,3 +331,6 @@ ASALocalRun/
 
 # SQLite DB
 *.db
+
+# app settings
+DADataManager/appsettings.json/
