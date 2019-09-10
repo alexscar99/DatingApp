@@ -29,6 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\src\app\_services\error.interceptor.ts" />
     <None Remove="ClientApp\tsconfig.json" />
   </ItemGroup>
 
