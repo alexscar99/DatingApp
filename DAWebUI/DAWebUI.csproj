@@ -30,6 +30,7 @@
 
   <ItemGroup>
     <None Remove="ClientApp\src\app\_services\error.interceptor.ts" />
+    <None Remove="ClientApp\src\typings.d.ts" />
     <None Remove="ClientApp\tsconfig.json" />
   </ItemGroup>
 
@@ -40,6 +41,7 @@
     <TypeScriptCompile Remove="ClientApp\src\app\nav\nav.component.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\register\register.component.spec.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\register\register.component.ts" />
+    <TypeScriptCompile Remove="ClientApp\src\app\_services\alertify.service.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\_services\auth.service.ts" />
   </ItemGroup>
 
