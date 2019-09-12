@@ -29,6 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\src\app\routes.ts" />
     <None Remove="ClientApp\src\app\_services\error.interceptor.ts" />
     <None Remove="ClientApp\src\typings.d.ts" />
     <None Remove="ClientApp\tsconfig.json" />
@@ -37,6 +38,12 @@
   <ItemGroup>
     <TypeScriptCompile Remove="ClientApp\src\app\home\home.component.spec.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\home\home.component.ts" />
+    <TypeScriptCompile Remove="ClientApp\src\app\lists\lists.component.spec.ts" />
+    <TypeScriptCompile Remove="ClientApp\src\app\lists\lists.component.ts" />
+    <TypeScriptCompile Remove="ClientApp\src\app\member-list\member-list.component.spec.ts" />
+    <TypeScriptCompile Remove="ClientApp\src\app\member-list\member-list.component.ts" />
+    <TypeScriptCompile Remove="ClientApp\src\app\messages\messages.component.spec.ts" />
+    <TypeScriptCompile Remove="ClientApp\src\app\messages\messages.component.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\nav\nav.component.spec.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\nav\nav.component.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\register\register.component.spec.ts" />
@@ -47,6 +54,10 @@
 
   <ItemGroup>
     <Content Include="ClientApp\tsconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ClientApp\src\app\_guards\" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
