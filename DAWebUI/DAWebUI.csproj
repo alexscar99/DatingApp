@@ -44,6 +44,8 @@
     <TypeScriptCompile Remove="ClientApp\src\app\lists\lists.component.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\members\member-card\member-card.component.spec.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\members\member-card\member-card.component.ts" />
+    <TypeScriptCompile Remove="ClientApp\src\app\members\member-detail\member-detail.component.spec.ts" />
+    <TypeScriptCompile Remove="ClientApp\src\app\members\member-detail\member-detail.component.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\members\member-list\member-list.component.spec.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\members\member-list\member-list.component.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\messages\messages.component.spec.ts" />
