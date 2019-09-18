@@ -1,14 +1,16 @@
-﻿import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
     selector: 'app-lists',
     templateUrl: './lists.component.html',
     styleUrls: ['./lists.component.css']
 })
-/** lists component*/
-export class ListsComponent {
-    /** lists ctor */
+export class ListsComponent implements OnInit {
     constructor() {
+
+    }
+
+    ngOnInit() {
 
     }
 }
