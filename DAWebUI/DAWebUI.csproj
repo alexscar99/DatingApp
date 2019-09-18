@@ -30,6 +30,8 @@
 
   <ItemGroup>
     <None Remove="ClientApp\src\app\routes.ts" />
+    <None Remove="ClientApp\src\app\_models\photo.ts" />
+    <None Remove="ClientApp\src\app\_models\user.ts" />
     <None Remove="ClientApp\src\app\_services\error.interceptor.ts" />
     <None Remove="ClientApp\src\typings.d.ts" />
     <None Remove="ClientApp\tsconfig.json" />
@@ -50,6 +52,7 @@
     <TypeScriptCompile Remove="ClientApp\src\app\register\register.component.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\_services\alertify.service.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\_services\auth.service.ts" />
+    <TypeScriptCompile Remove="ClientApp\src\app\_services\user.service.ts" />
   </ItemGroup>
 
   <ItemGroup>
