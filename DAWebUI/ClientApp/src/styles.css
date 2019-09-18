@@ -55,3 +55,20 @@
     padding: 15px 0;
 }
 
+.text-center .dark-grey-btn {
+    background-color: #bdbdbd;
+    color: #fff;
+}
+
+.text-center .dark-grey-btn:hover {
+    background-color: #999;
+}
+
+.text-center .learn-more-btn {
+    background-color: #93d4fa;
+    color: #fff;
+}
+
+.text-center .learn-more-btn:hover {
+    background-color: #86c0e3;
+}

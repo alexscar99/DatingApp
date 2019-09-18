@@ -32,6 +32,8 @@
     <None Remove="ClientApp\src\app\routes.ts" />
     <None Remove="ClientApp\src\app\_models\photo.ts" />
     <None Remove="ClientApp\src\app\_models\user.ts" />
+    <None Remove="ClientApp\src\app\_resolvers\member-detail.resolver.ts" />
+    <None Remove="ClientApp\src\app\_resolvers\member-list.resolver.ts" />
     <None Remove="ClientApp\src\app\_services\error.interceptor.ts" />
     <None Remove="ClientApp\src\typings.d.ts" />
     <None Remove="ClientApp\tsconfig.json" />
@@ -65,6 +67,12 @@
 
   <ItemGroup>
     <Folder Include="ClientApp\src\app\_guards\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Update="ClientApp\src\app\_resolvers\member-list.resolver.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
