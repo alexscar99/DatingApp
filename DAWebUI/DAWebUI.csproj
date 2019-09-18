@@ -42,8 +42,10 @@
     <TypeScriptCompile Remove="ClientApp\src\app\home\home.component.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\lists\lists.component.spec.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\lists\lists.component.ts" />
-    <TypeScriptCompile Remove="ClientApp\src\app\member-list\member-list.component.spec.ts" />
-    <TypeScriptCompile Remove="ClientApp\src\app\member-list\member-list.component.ts" />
+    <TypeScriptCompile Remove="ClientApp\src\app\members\member-card\member-card.component.spec.ts" />
+    <TypeScriptCompile Remove="ClientApp\src\app\members\member-card\member-card.component.ts" />
+    <TypeScriptCompile Remove="ClientApp\src\app\members\member-list\member-list.component.spec.ts" />
+    <TypeScriptCompile Remove="ClientApp\src\app\members\member-list\member-list.component.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\messages\messages.component.spec.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\messages\messages.component.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\nav\nav.component.spec.ts" />
